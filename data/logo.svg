@@ -1,3 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="344.5639097744361 330.27819548872174 111.73684210526318 91.21804511278197" width="53.87" height="43.61"><defs><path d="M453.3 331.28L453.3 359.85L388.64 418.5L388.64 388.42L453.3 331.28Z" id="aFZf6T5ED"></path><linearGradient id="gradientb2ThqnP5Op" gradientUnits="userSpaceOnUse" x1="420.97" y1="331.28" x2="420.97" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient><path d="M410.23 331.28L410.23 359.85L345.56 418.5L345.56 388.42L410.23 331.28Z" id="a9fehgwfM"></path><linearGradient id="gradientk1wNV9Ostb" gradientUnits="userSpaceOnUse" x1="377.89" y1="331.28" x2="377.89" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient></defs><g><g><use xlink:href="#aFZf6T5ED" opacity="1" fill="url(#gradientb2ThqnP5Op)"></use></g><g><use xlink:href="#a9fehgwfM" opacity="1" fill="url(#gradientk1wNV9Ostb)"></use></g></g></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="50.000000pt" height="50.000000pt" viewBox="0 0 360.000000 360.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,360.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M1578 3345 c-359 -49 -679 -208 -937 -465 -639 -637 -640 -1662 -1
+-2300 665 -665 1745 -633 2369 71 516 582 548 1441 77 2064 -350 463 -937 708
+-1508 630z m-548 -1000 c0 -20 -7 -23 -62 -29 -35 -3 -69 -13 -78 -21 -13 -14
+-16 -86 -20 -523 -6 -556 -6 -552 -70 -651 -61 -96 -167 -171 -241 -171 l-29
+0 0 64 0 64 31 -15 c41 -20 96 -11 128 22 l26 25 0 584 c0 462 -3 586 -13 599
+-7 9 -38 18 -72 22 -61 7 -76 16 -67 39 4 9 60 12 236 12 231 1 231 1 231 -21z
+m806 10 c216 -41 358 -192 394 -421 31 -195 -71 -441 -234 -562 -144 -107
+-228 -124 -583 -120 l-263 3 0 22 c0 15 10 28 29 37 28 15 29 18 36 118 3 57
+5 273 3 481 -2 311 -5 379 -17 386 -8 5 -38 12 -68 16 -46 6 -53 9 -53 28 l0
+22 338 3 c269 2 355 -1 418 -13z m1225 -4 c65 -20 119 -68 146 -128 22 -47 25
+-65 21 -127 -8 -124 -79 -221 -207 -283 -50 -25 -67 -28 -159 -28 -80 0 -105
+3 -112 15 -22 35 -12 41 53 34 91 -9 142 8 198 66 35 35 49 60 59 100 28 118
+-13 232 -101 277 -57 30 -161 38 -244 21 l-60 -13 0 -478 c0 -404 2 -479 14
+-487 8 -4 41 -12 73 -15 51 -6 58 -10 58 -29 l0 -23 -230 0 -230 0 0 23 c0 19
+7 22 65 29 52 5 68 11 78 28 18 32 17 938 -1 960 -8 9 -39 18 -78 22 -57 7
+-64 10 -64 29 l0 22 343 -1 c230 -1 354 -6 378 -14z"/>
+<path d="M1440 2293 c-26 -2 -50 -11 -57 -20 -10 -13 -13 -121 -13 -463 0
+-341 3 -450 13 -463 9 -14 34 -18 122 -23 126 -6 248 11 320 46 108 52 185
+156 221 300 24 94 16 293 -16 373 -44 115 -139 199 -262 233 -54 15 -247 25
+-328 17z"/>
+</g>
+</svg>

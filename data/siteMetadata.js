@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'John Potts - blog',
   author: 'John Potts',
-  headerTitle: 'JohnPotts',
+  headerTitle: 'John Potts - blog',
   description: 'Developer blog by John D Potts',
   language: 'en-us',
   theme: 'system', // system, dark or light
@@ -12,11 +12,11 @@ const siteMetadata = {
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@johndpotts',
   email: 'jdpotts189@gmail.com',
-  github: 'https://github.com',
+  github: 'https://github.com/johndpotts',
   twitter: 'https://twitter.com/Twitter',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/jdpotts189/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

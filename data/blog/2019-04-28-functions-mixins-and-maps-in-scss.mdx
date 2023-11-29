@@ -1,0 +1,129 @@
+---
+title: 'Sass: Functions, Mixins, and Maps'
+date: '2019-04-28'
+images: ['/static/images/sass.png']
+draft: false
+tags: ['sass', 'guide']
+summary: Description of several useful features in Sass
+---
+
+![SASS logo](/static/images/sass.png)
+
+If you've been in front end development for any amount of time you've likely heard about Sass (and similar CSS pre-processors like LESS and Stylus). Sass is what I generally use for writing styles for projects, so decided to write a quick guide to some of my favorite Sass features.
+
+Sass is a pre-processor, which means that styles written in Sass go through a compiler to produce CSS that is ultimately applied to a web page. For example, this Sass-
+
+```scss
+/* sass variable declaration */
+$color-black: #222222;
+
+.text-black {
+  color: $color-black;
+}
+```
+
+will produce the following compiled CSS:
+
+```scss
+/* compiled CSS */
+.text-black {
+  color: #222222;
+}
+```
+
+Sass won't let you create styles that you can't in CSS - the benefit that comes from using a pre-processor is the ability to write more concise, reusable, and maintainable styles. Here are a few Sass features that come in handy on a regular basis:
+
+## Maps
+
+Most programming languages have some form of key-value pairs (objects, dictionaries, etc). Sass brings this capability to our styling. The syntax is as follows-
+
+```scss
+/* syntax */
+$colors: (
+  dark: #222222,
+  light: #eeeeee,
+);
+
+/* retrieve a value */
+.dark-text {
+  color: map-get($colors, dark);
+}
+
+/* error handling */
+.dark-text {
+  @if map-has-key($colors, dark) {
+    color: map-get($colors, dark);
+  } @else {
+    color: #000000;
+  }
+}
+
+/* iterate through maps */
+@each $name, $color in $colors {
+  .text-#{$name} {
+    color: $color;
+  }
+}
+```
+
+## Functions:
+
+Functions are also an incredibly useful feature of Sass. The let a developer perform calculations and derive values for styles. They can also take in variables as arguments:
+
+```Scss
+/*function example*/
+@function column-width($col, $total) {
+ @return percentage($col/$total);
+}
+
+$total-columns: 12;
+
+col-6{
+    width: $column-width(6, $total-columns);
+}
+
+
+/*---Output---*/
+col-6{
+    width: 50%;
+}
+```
+
+## Mixins:
+
+Finally, mixins allow generated sections of Sass to be reused across different scenarios. A common use case for mixins is generating utility classes for size, color, and other attributes that could have a range of values. An example of such a mixin would be to create an iterator over a map of colors or sizes and use it to generate text or background utility classes:
+
+```Scss
+$colors: (
+    dark: #222222,
+    light: #EEEEEE
+);
+
+/*mixin example*/
+@mixin color-generator {
+  @each $name, $value in $colors {
+    &-#{$name} {
+      color: $value;
+    }
+  }
+}
+
+.text{
+    @include color-generator;
+}
+
+
+ /* --- Output --- */
+
+ .text-dark{
+     color: #222222;
+ }
+ .text-light{
+     color: #EEEEEE;
+ }
+
+
+```
+
+These are just a few of the many ways in which Sass can make you a more efficient and effective developer.
+For further info, check out this [Sass Cheatsheet](https://devhints.io/sass) or [This guide](https://sass-lang.com/guide).

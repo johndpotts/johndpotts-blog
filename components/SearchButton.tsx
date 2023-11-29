@@ -28,7 +28,7 @@ const SearchButton = () => {
         </svg>
       </SearchButtonWrapper>
     )
-  }
+  } else return null;
 }
 
 export default SearchButton
